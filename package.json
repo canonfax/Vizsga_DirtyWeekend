@@ -1,0 +1,36 @@
+{
+    "name": "rendezveny-kezelo",
+    "version": "1.0.0",
+    "description": "OOP rendezveny (Fesztivál) Kezelő Rendszer TypeScriptben",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "ts-node src/index.ts",
+        "test": "jest --runInBand"
+    },
+    "keywords": [
+        "typescript",
+        "oop",
+        "events",
+        "jest",
+        "decorators"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/jest": "^29.5.12",
+        "@types/node": "^22.7.1",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    },
+    "jest": {
+        "preset": "ts-jest",
+        "testEnvironment": "node",
+        "roots": [
+            "<rootDir>/tests"
+        ]
+    }
+}
